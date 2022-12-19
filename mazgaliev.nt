@@ -1,0 +1,10 @@
+<https://github.com/Mazgaliev> <http://www.w3.org/2001/vcard-rdf/3.0#NAME> "Mite" .
+<https://github.com/Mazgaliev> <http://www.w3.org/2001/vcard-rdf/3.0#ADR> "The end of the world" .
+<https://github.com/Mazgaliev> <http://www.w3.org/2006/vcard/ns#hasGender> "MALE" .
+<https://github.com/Mazgaliev> <http://xmlns.com/foaf/0.1/interest> "Gym" .
+<https://github.com/Mazgaliev> <http://www.w3.org/2001/vcard-rdf/3.0#EMAIL> "mite_mazgaliev@live.com" .
+<https://github.com/Mazgaliev> <http://www.w3.org/2001/vcard-rdf/3.0#NICKNAME> "Mazgaliev" .
+<https://github.com/Mazgaliev> <http://www.w3.org/2001/vcard-rdf/3.0#Region> "Jugo Istok" .
+<https://github.com/Mazgaliev> <http://www.w3.org/2001/vcard-rdf/3.0#BDAY> "25.10.2000" .
+<https://github.com/Mazgaliev> <http://www.w3.org/2001/vcard-rdf/3.0#AGENT> "007" .
+<https://github.com/Mazgaliev> <http://xmlns.com/foaf/0.1/phone> "075-277-544" .

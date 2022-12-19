@@ -1,0 +1,18 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"
+    xmlns:j.0="http://www.w3.org/2006/vcard/ns#"
+    xmlns:j.1="http://xmlns.com/foaf/0.1/">
+  <rdf:Description rdf:about="https://github.com/Mazgaliev">
+    <vcard:NAME>Mite</vcard:NAME>
+    <vcard:ADR>The end of the world</vcard:ADR>
+    <j.0:hasGender>MALE</j.0:hasGender>
+    <j.1:interest>Gym</j.1:interest>
+    <vcard:EMAIL>mite_mazgaliev@live.com</vcard:EMAIL>
+    <vcard:NICKNAME>Mazgaliev</vcard:NICKNAME>
+    <vcard:Region>Jugo Istok</vcard:Region>
+    <vcard:BDAY>25.10.2000</vcard:BDAY>
+    <vcard:AGENT>007</vcard:AGENT>
+    <j.1:phone>075-277-544</j.1:phone>
+  </rdf:Description>
+</rdf:RDF>
