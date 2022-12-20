@@ -17,12 +17,12 @@
   foaf:family_name "Mazgaliev" ;
   foaf:nick "Mazgal" ;
   foaf:mbox_sha1sum "06865eb7dd6031fb0e233b6569f687dd0254d3fb" ;
-  foaf:homepage <https://www.instagram.com/mazgaliev/> ;
+  foaf:homepage <https://raw.githubusercontent.com/Mazgaliev/VBS/master/src/main/java/org/L5/www.instagram.com/Mazgaliev> ;
   foaf:phone <tel:075-277-544> ;
-  foaf:schoolHomepage <https://www.finki.ukim.mk/> ;
+  foaf:schoolHomepage <https://raw.githubusercontent.com/Mazgaliev/VBS/master/src/main/java/org/L5/www.finki.ukim.mk> ;
   foaf:knows [
     a foaf:Person ;
     foaf:name "Filip" ;
-    foaf:mbox_sha1sum "35e64bb68af0de918b55bf7c04d92ad16e764ea4" ;
+    foaf:mbox_sha1sum "506ae47ec283ef754dd2d1e12d2ee3f71677bec2" ;
     rdfs:seeAlso <https://www.dropbox.com/s/oeds09qnj8l0gqc/foaf.ttl.txt?dl=1>
   ] .
