@@ -1,33 +1,28 @@
-@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix admin: <http://webns.net/mvcb/> .
-@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns0: <http://webns.net/mvcb/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<>      a                     foaf:PersonalProfileDocument ;
-        admin:errorReportsTo  <mailto:leigh@ldodds.com> ;
-        admin:generatorAgent  <http://www.ldodds.com/foaf/foaf-a-matic> ;
-        foaf:maker            <#me> ;
-        foaf:primaryTopic     <#me> .
+<https://raw.githubusercontent.com/Mazgaliev/VBS/master/src/main/java/org/L5/foaf.ttl>
+  a foaf:PersonalProfileDocument ;
+  foaf:maker <https://raw.githubusercontent.com/Mazgaliev/VBS/master/src/main/java/org/L5/foaf.ttl#me> ;
+  foaf:primaryTopic <https://raw.githubusercontent.com/Mazgaliev/VBS/master/src/main/java/org/L5/foaf.ttl#me> ;
+  ns0:generatorAgent <http://www.ldodds.com/foaf/foaf-a-matic> ;
+  ns0:errorReportsTo <mailto:leigh@ldodds.com> .
 
-<#me>   a                    foaf:Person ;
-        foaf:family_name     "Mazgaliev" ;
-        foaf:givenname       "Mite" ;
-        foaf:homepage        <https://www.instagram.com/Mazgaliev> ;
-        foaf:knows           [ a                  foaf:Person ;
-                               foaf:mbox_sha1sum  "5a94d6162ae4a7e89f6ff0099dc2e5721679d023" ;
-                               foaf:name          "Ivan "
-                             ] ;
-        foaf:knows           [ a                  foaf:Person ;
-                               rdfs:seeAlso       <sijakov.filip@gmail.com> ;
-                               foaf:mbox_sha1sum  "35e64bb68af0de918b55bf7c04d92ad16e764ea4" ;
-                               foaf:name          "Filip "
-                             ] ;
-        foaf:knows           [ a                  foaf:Person ;
-                               foaf:mbox_sha1sum  "5af22b8a71c25c5306c9db4e640407033ddfb297" ;
-                               foaf:name          "Martin "
-                             ] ;
-        foaf:mbox_sha1sum    "be71a52e748b15deae0fd82ce52dc16d44d8611f" ;
-        foaf:name            "Mite Mazgaliev" ;
-        foaf:nick            "Mazgal" ;
-        foaf:phone           <tel:075277544> ;
-        foaf:schoolHomepage  <https://www.finki.ukim.mk> .
+<https://raw.githubusercontent.com/Mazgaliev/VBS/master/src/main/java/org/L5/foaf.ttl#me>
+  a foaf:Person ;
+  foaf:name "Mite Mazgaliev" ;
+  foaf:title "mr" ;
+  foaf:givenname "Mite" ;
+  foaf:family_name "Mazgaliev" ;
+  foaf:nick "Mazgal" ;
+  foaf:mbox_sha1sum "06865eb7dd6031fb0e233b6569f687dd0254d3fb" ;
+  foaf:homepage <https://www.instagram.com/mazgaliev/> ;
+  foaf:phone <tel:075-277-544> ;
+  foaf:schoolHomepage <https://www.finki.ukim.mk/> ;
+  foaf:knows [
+    a foaf:Person ;
+    foaf:name "Filip" ;
+    foaf:mbox_sha1sum "35e64bb68af0de918b55bf7c04d92ad16e764ea4" ;
+    rdfs:seeAlso <mailto:sijakov.filip@gmail.com>
+  ] .
