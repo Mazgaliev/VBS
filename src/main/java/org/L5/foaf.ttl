@@ -24,5 +24,5 @@
     a foaf:Person ;
     foaf:name "Filip" ;
     foaf:mbox_sha1sum "35e64bb68af0de918b55bf7c04d92ad16e764ea4" ;
-    rdfs:seeAlso <mailto:sijakov.filip@gmail.com>
+    rdfs:seeAlso <https://www.dropbox.com/s/oeds09qnj8l0gqc/foaf.ttl.txt?dl=1>
   ] .
